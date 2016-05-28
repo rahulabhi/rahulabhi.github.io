@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Rahul
-id: rahul
-permalink: /rahul/
+id: contact
+permalink: /contact/
 ---
 
 ## Rahul Abhisek
@@ -13,5 +13,5 @@ I have experience working on projects from multiple sectors such as healthcare, 
 
 I enjoy public speaking and have addressed 1000+ crowd on the topics of Lean Startup, Entrepreneurship and Marketing.
 
-- rahul.abhisek@gmail.com
-- +358 465370007
+- <rahul.abhisek@gmail.com>
+- <a href="tel: +358465370007">+358 46 5370007</a>

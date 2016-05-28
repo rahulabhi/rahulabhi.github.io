@@ -4,7 +4,7 @@ layout: default
 
 {% for page in site.pages %}
   {% if page.title %}
-  <div id="{{ page.id }}" class="section">
+  <div id="{{ page.id }}" class="section {{ page.id }}">
     <div class="section-content">
       {{ page.content }}
     </div>
