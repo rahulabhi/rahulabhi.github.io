@@ -1,0 +1,106 @@
+body {
+  background: $background-color url('../images/bg.png');
+  padding: 5px;
+  @media (min-width: 767px) {
+    padding: 5vw;
+  }
+  * {
+    box-sizing: border-box;
+  }
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: $title-font-family;
+}
+.page-wrapper {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  padding: $spacing-unit/1.5;
+  background-color: white;
+  max-width: $content-width;
+  border-top: 5px solid $brand-color;
+  border-bottom: 5px solid $brand-color;
+  box-shadow: 0 0 20px rgba(black, 0.25);
+  @media (min-width: 767px) {
+    padding: $spacing-unit;
+  }
+}
+.header {
+  display: block;
+  position: relative;
+  padding-bottom: 40vh;
+  background: lighten($brand-color, 40%) url(../images/hero.jpeg) no-repeat top center / cover;
+  margin: -$spacing-unit/1.5;
+  margin-bottom: $spacing-unit;
+  @media (min-width: 767px) {
+    margin: -$spacing-unit;
+    margin-bottom: $spacing-unit*2;
+  }
+}
+.logo,
+.nav {
+  display: block;
+  text-align: center;
+}
+.logo {
+  display: block;
+  position: absolute;
+  bottom: $spacing-unit*2;
+  margin: 0 auto;
+  padding: $spacing-unit/2 $spacing-unit;
+  font-size: 1.5em;
+  font-weight: 100;
+  font-style: italic;
+  text-decoration: none !important;
+  color: $brand-color !important;
+  background: white;
+  @media (min-width: 767px) {
+    padding: $spacing-unit $spacing-unit*2;
+    font-size: 2.5em;
+  }
+}
+.nav {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin: 0 0 $spacing-unit*2 0;
+  // text-transform: uppercase;
+  font-size: $nav-font-size;
+  font-weight: bold;
+  @media (min-width: 767px) {
+    flex-direction: row;
+  }
+  a {
+    flex: 1 0 auto;
+    padding: $spacing-unit/2 0;
+    border-bottom: 2px dashed white;
+    text-decoration: none !important;
+    &:hover {
+      color: $brand-color;
+      border-bottom: 2px solid $brand-color;
+    }
+  }
+}
+.section {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  border-bottom: 1px solid $grey-color-light;
+
+  .section-content {
+    display: block;
+    position: relative;
+    margin: $spacing-unit 0;
+    @media (min-width: 767px) {
+      margin: $spacing-unit*2 $spacing-unit;
+    }
+  }
+}
+.footer {
+  color: $grey-color;
+  font-size: $smaller-font-size;
+  letter-spacing: 0.1em;
+  text-align: center;
+  padding-top: $spacing-unit;
+}
