@@ -1,9 +1,5 @@
 body {
-  background: $background-color url('../images/bg.png');
-  padding: 5px;
-  @media (min-width: 767px) {
-    padding: 5vw;
-  }
+  background: $background-color; // url('../images/bg.png');
   * {
     box-sizing: border-box;
   }
@@ -17,7 +13,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 auto;
   padding: $spacing-unit/1.5;
   background-color: white;
-  max-width: $content-width;
+  // max-width: $content-width;
   border-top: 5px solid $brand-color;
   border-bottom: 5px solid $brand-color;
   box-shadow: 0 0 20px rgba(black, 0.25);
@@ -37,21 +33,34 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: $spacing-unit*2;
   }
 }
-.logo,
 .nav {
+
+}
+.logo-wrapper {
   display: block;
-  text-align: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 0 auto;
+  max-width: $content-width;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 .logo {
   display: block;
-  position: absolute;
-  bottom: $spacing-unit*2;
+  // position: absolute;
+  // bottom: $spacing-unit*2;
   margin: 0 auto;
   padding: $spacing-unit/2 $spacing-unit;
   font-size: 1.5em;
   font-weight: 100;
   font-style: italic;
   text-decoration: none !important;
+  text-align: center;
   color: $brand-color !important;
   background: white;
   @media (min-width: 767px) {
@@ -64,10 +73,12 @@ h1, h2, h3, h4, h5, h6 {
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: center;
-  margin: 0 0 $spacing-unit*2 0;
+  max-width: $content-width;
+  margin: 0 auto $spacing-unit*2 auto;
   // text-transform: uppercase;
   font-size: $nav-font-size;
   font-weight: bold;
+  text-align: center;
   @media (min-width: 767px) {
     flex-direction: row;
   }
@@ -87,13 +98,19 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   margin: 0 auto;
   border-bottom: 1px solid $grey-color-light;
+  &:nth-child(even) {
+    background-color: $grey-color-light;
+  }
 
   .section-content {
     display: block;
     position: relative;
-    margin: $spacing-unit 0;
+    margin: 0 auto;
+    padding: $spacing-unit 0;
+    max-width: $content-width;
     @media (min-width: 767px) {
-      margin: $spacing-unit*2 $spacing-unit;
+      margin: 0 auto;
+      padding: $spacing-unit*2 0;
     }
   }
 }
