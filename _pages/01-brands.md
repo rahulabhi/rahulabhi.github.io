@@ -1,7 +1,13 @@
 ---
 layout: page
 title: Brands
+id: brands
 permalink: /brands/
 ---
 
-Fazer, Teito, Soundshade, Nordicomm Technologies Oy
+## Brands
+
+- Fazer
+- Teito
+- Soundshade
+- Nordicomm Technologies Oy

@@ -2,11 +2,12 @@
 layout: default
 ---
 
-<div class="home">
-  {% for page in site.pages %}
+{% for page in site.pages %}
+<div id="{{page.id}}" class="section">
+  <div class="section-content">
     {% if page.title %}
-    <h1 class="title">{{ page.title }}</h1>
     {{ page.content }}
     {% endif %}
-  {% endfor %}
+  </div>
 </div>
+{% endfor %}
