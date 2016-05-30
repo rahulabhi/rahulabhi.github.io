@@ -1,12 +1,10 @@
 ---
 layout: page
-title: About
-id: about
-permalink: /about/
+title: What we do
+id: what-we-do
+permalink: /what-we-do/
 ---
 
-StrategyCo.’s mission is to help companies create high levels of economic value and to grow and lead.
+We offer business development and strategy advisory. We use analytical and collaborative approach for strategy and implementation plan to achieve concrete results. 
 
-StrategyCo. serves clients at every level of the organization, in whatever capacity we can be most useful, whether as a trusted advisor to top management or as a hands-on coach for front line employees.
-
-We focus on delivering practical and enduring results, and to put recommendations into practice. We work directly with clients over long periods to help develop workforce skills, drive operational improvement, and apply new working methods.
+We believe in achieving results and going one step further by following up on the plan with a clear timeline.
