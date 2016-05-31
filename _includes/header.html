@@ -1,12 +1,10 @@
-<nav class="nav">
-  {% for page in site.pages %}
-  {% if page.title %}
-  <a class="" href="#{{ page.id }}">{{ page.title }}</a>
-  {% endif %}
-  {% endfor %}
-</nav>
 <header class="header">
-    <div class="logo-wrapper">
+    <nav class="nav">
       <a class="logo" href="{{ site.baseurl }}/">{{ site.title }}</a>
-    </div>
+      {% for page in site.pages %}
+      {% if page.title %}
+      <a class="nav-{{ page.id }}" href="#{{ page.id }}">{{ page.title }}</a>
+      {% endif %}
+      {% endfor %}
+    </nav>
 </header>
