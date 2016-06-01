@@ -18,7 +18,9 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
   letter-spacing: 0.005em;
   position: relative;
-  &:not(h1):after {
+}
+h2, h3 {
+  &:after {
     content: '';
     display: block;
     position: absolute;
@@ -216,9 +218,9 @@ h1, h2, h3, h4, h5, h6 {
   @media (min-width: 767px) {
     p:first-child {
       float: right;
-      margin: 0 0 0 2em;
+      margin: 4em 0 0 2em;
       overflow: auto;
-      width: 45%;
+      width: 35%;
       img {
         width: 100%;
       }
@@ -230,7 +232,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: $spacing-unit*2 0 0 0;
     padding: 0;
     list-style: none;
-    font-size: 1.25em;
+    font-size: 1.1em;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -238,12 +240,12 @@ h1, h2, h3, h4, h5, h6 {
       flex-direction: row;
     }
     li {
-      flex: 1 0 auto;
+      flex: 0 0 50%;
       margin-bottom: 0.5em;
       a {
         display: block;
         background-color: white;
-        padding: $spacing-unit 0;
+        padding: $spacing-unit/2 0;
         text-align: center;
         margin-right: 2px;
         &:hover {
