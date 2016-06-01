@@ -5,7 +5,7 @@ id: what-we-do
 permalink: /what-we-do/
 ---
 
-![Rahul Abhisek](/images/mugshot.jpg)
+![Rahul Abhisek](/images/process.jpg)
 
 ## What we do
 
