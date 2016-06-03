@@ -5,4 +5,4 @@ id: intro
 permalink: /intro/
 ---
 
-# Participative & co-creative approach to strategy
+# Participative and collaborative approach to strategy
