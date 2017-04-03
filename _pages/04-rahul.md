@@ -18,4 +18,4 @@ I enjoy public speaking and have addressed 1000+ crowd on the topics of Lean Sta
 ###### Contact me
 
 - <rahul.abhisek@gmail.com>
-- <a href="tel: +358465370007">+358 46 5370007</a>
+- <a href="tel: +358456967674">+358 45 6967674</a>
