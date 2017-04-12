@@ -1,7 +1,6 @@
 ---
 layout: page
-title: Kristina
-id: kristina
+name: kristina
 permalink: /kristina/
 ---
 
