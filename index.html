@@ -15,8 +15,8 @@ layout: default
   <div class="section-content">
     <h2>Team</h2>
     {% for page in site.pages %}
-      {% if page.name %}
-      <div class="contact-profile {{ page.name }}">
+      {% if page.member %}
+      <div class="contact-profile {{ page.member }}">
           {{ page.content }}
       </div>
       {% endif %}
