@@ -269,3 +269,16 @@ h2, h3 {
     margin: 0;
   }
 }
+#contact {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.contact-profile {
+  flex-basis: 45%;
+  @media (max-width: 767px) {
+    flex-basis: 100%;
+  }
+}
