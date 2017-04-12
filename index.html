@@ -15,9 +15,11 @@ layout: default
   <div class="section-content">
     <h2>Team</h2>
     {% for member in site.team %}
+      {% if member.name %}
       <div class="contact-profile {{ member.id }}">
           {{ member.content }}
       </div>
+      {% endif %}
     {% endfor %}
   </div>
 </div>
