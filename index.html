@@ -15,7 +15,7 @@ layout: default
   <div class="section-content">
     <h2>Team</h2>
     {% for member in site.team %}
-      <div class="contact-profile {{ member.title }}">
+      <div class="contact-profile {{ member.id }}">
           {{ member.content }}
       </div>
     {% endfor %}
