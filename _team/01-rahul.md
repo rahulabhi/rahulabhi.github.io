@@ -1,6 +1,6 @@
 ---
 layout: page
-name: rahul
+member: rahul
 permalink: /rahul/
 ---
 
