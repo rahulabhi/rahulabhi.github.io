@@ -5,7 +5,7 @@ id: rahul
 permalink: /rahul/
 ---
 
-![Rahul Abhisek](/images/mugshot2.jpg)
+![Rahul Abhisek](/images/rahul.jpg)
 
 ### Rahul Abhisek
 
