@@ -11,3 +11,10 @@ layout: default
   </div>
   {% endif %}
 {% endfor %}
+<div id="contact" class="section contact">
+  {% for member in site.team %}
+    <div class="contact-profile {{ member.title }}">
+        {{ member.content }}
+    </div>
+  {% endfor %}
+</div>
