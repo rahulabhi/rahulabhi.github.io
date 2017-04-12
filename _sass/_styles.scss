@@ -215,17 +215,6 @@ h2, h3 {
 .contact {
   background-color: $grey-color-dark;
   color: white;
-  @media (min-width: 767px) {
-    p:first-child {
-      float: right;
-      margin: 4em 0 0 2em;
-      overflow: auto;
-      width: 35%;
-      img {
-        width: 100%;
-      }
-    }
-  }
   ul {
     display: block;
     clear: both;
@@ -277,6 +266,11 @@ h2, h3 {
   align-items: flex-start;
   h2 {
     flex-basis: 100%;
+  }
+  img {
+    max-width: 100%;
+    width: 100%;
+    margin: 1em 0;
   }
 }
 .contact-profile {
