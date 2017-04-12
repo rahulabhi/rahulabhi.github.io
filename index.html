@@ -14,10 +14,10 @@ layout: default
 <div id="contact" class="section contact">
   <div class="section-content">
     <h2>Team</h2>
-    {% for member in site.team %}
-      {% if member.name %}
-      <div class="contact-profile {{ member.id }}">
-          {{ member.content }}
+    {% for page in site.team %}
+      {% if page.name %}
+      <div class="contact-profile {{ page.name }}">
+          {{ page.content }}
       </div>
       {% endif %}
     {% endfor %}
