@@ -1,6 +1,6 @@
 ---
 layout: page
-name: kristina
+member: kristina
 permalink: /kristina/
 ---
 
