@@ -14,7 +14,7 @@ layout: default
 <div id="contact" class="section contact">
   <div class="section-content">
     <h2>Team</h2>
-    {% for page in site.team %}
+    {% for page in site.pages %}
       {% if page.name %}
       <div class="contact-profile {{ page.name }}">
           {{ page.content }}
