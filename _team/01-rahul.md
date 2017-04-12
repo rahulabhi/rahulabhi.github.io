@@ -1,7 +1,6 @@
 ---
 layout: page
-title: Rahul Abhisek
-id: rahul
+name: rahul
 permalink: /rahul/
 ---
 
