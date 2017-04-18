@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Intro
-id: intro
+section-id: intro
 permalink: /intro/
 ---
 

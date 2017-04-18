@@ -1,7 +1,7 @@
 ---
 layout: page
 title: What we do
-id: what-we-do
+section-id: what-we-do
 permalink: /what-we-do/
 ---
 

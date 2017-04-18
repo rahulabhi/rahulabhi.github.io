@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Expertise
-id: expertise
+section-id: expertise
 permalink: /expertise/
 ---
 

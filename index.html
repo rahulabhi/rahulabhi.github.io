@@ -3,20 +3,32 @@ layout: default
 ---
 
 {% for page in site.pages %}
-  {% if page.title %}
-  <div id="{{ page.id }}" class="section {{ page.id }}">
+  {% if page.section-id %}
+  <div id="{{ page.section-id }}" class="section {{ page.section-id }}">
     <div class="section-content">
       {{ page.content }}
     </div>
   </div>
   {% endif %}
 {% endfor %}
+<div id="testimonials" class="section testimonials">
+  <div class="section-content">
+    <h2>Testimonials</h2>
+    {% for page in site.pages %}
+      {% if page.testimonial-id %}
+      <div class="testimonial {{ page.testimonial-id }}">
+          {{ page.content }}
+      </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
 <div id="contact" class="section contact">
   <div class="section-content">
     <h2>Team</h2>
     {% for page in site.pages %}
-      {% if page.member %}
-      <div class="contact-profile {{ page.member }}">
+      {% if page.team-id %}
+      <div class="contact-profile {{ page.team-id }}">
           {{ page.content }}
       </div>
       {% endif %}

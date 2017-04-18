@@ -2,9 +2,9 @@
     <nav class="nav">
       <a class="logo" href="{{ site.baseurl }}/">{{ site.title }}</a>
       {% for page in site.pages %}
-      {% if page.title %}
-      <a class="nav-{{ page.id }}" href="#{{ page.id }}">{{ page.title }}</a>
-      {% endif %}
+        {% if page.section-id %}
+        <a class="nav-{{ page.section-id }}" href="#{{ page.section-id }}">{{ page.title }}</a>
+        {% endif %}
       {% endfor %}
       <a class="nav-contact" href="#contact">Contact</a>
     </nav>

@@ -1,10 +1,10 @@
 ---
 layout: page
-member: rahul
-permalink: /rahul/
+team-id: rahul
+permalink: /team/rahul/
 ---
 
-![Rahul Abhisek](/images/rahul.jpg)
+![Rahul Abhisek](/images/team/rahul.jpg)
 
 ### Rahul Abhisek
 
@@ -14,5 +14,5 @@ I have experience working on projects from multiple sectors such as healthcare, 
 
 I enjoy public speaking and have addressed 1000+ crowd on the topics of Lean Startup, Entrepreneurship and Marketing.
 
-<rahul.abhisek@gmail.com>
-<a href="tel: +358456967674">+358 45 6967674</a>
+- <rahul.abhisek@gmail.com>
+- <a href="tel: +358456967674">+358 45 6967674</a>

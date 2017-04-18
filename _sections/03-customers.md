@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Customers
-id: customers
+section-id: customers
 permalink: /customers/
 ---
 

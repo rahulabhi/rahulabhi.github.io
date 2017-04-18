@@ -95,7 +95,7 @@ h2, h3 {
   a {
     flex: 0 0 auto;
     margin-left: $spacing-unit/22;
-    padding: $spacing-unit/2 0;
+    padding: $spacing-unit/4 0;
     color: white;
     font-size: $nav-font-size * 0.8;
     font-weight: bold;
@@ -213,38 +213,77 @@ h2, h3 {
   }
 }
 .contact {
-  background-color: $grey-color-dark;
+  background-color: $grey-color-dark !important;
   color: white;
-  ul {
-    display: block;
-    clear: both;
-    margin: $spacing-unit*2 0 0 0;
-    padding: 0;
-    list-style: none;
-    font-size: 1.1em;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    @media (min-width: 767px) {
-      flex-direction: row;
+
+  img {
+    max-width: 50%;
+    width: 50%;
+    margin: 1em 0;
+  }
+  // ul {
+  //   display: block;
+  //   clear: both;
+  //   margin: $spacing-unit*2 0 0 0;
+  //   padding: 0;
+  //   list-style: none;
+  //   font-size: 1.1em;
+  //   display: flex;
+  //   flex-direction: column;
+  //   flex-wrap: nowrap;
+  //   @media (min-width: 767px) {
+  //     flex-direction: row;
+  //   }
+  //   li {
+  //     flex: 0 0 50%;
+  //     margin-bottom: 0.5em;
+  //     a {
+  //       display: block;
+  //       background-color: white;
+  //       padding: $spacing-unit/2 0;
+  //       text-align: center;
+  //       margin-right: 2px;
+  //       &:hover {
+  //         border: 0;
+  //         background-color: $brand-color;
+  //         color: white;
+  //       }
+  //     }
+  //   }
+  // }
+}
+.testimonials {
+  h6 {
+    font-size: 1.15rem;
+    margin-bottom: 0;
+    &:not(:last-child):before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: -12px;
+      left: 0;
+      width: 50%;
+      border-bottom: 1px solid $brand-color;
     }
-    li {
-      flex: 0 0 50%;
-      margin-bottom: 0.5em;
-      a {
-        display: block;
-        background-color: white;
-        padding: $spacing-unit/2 0;
-        text-align: center;
-        margin-right: 2px;
-        &:hover {
-          border: 0;
-          background-color: $brand-color;
-          color: white;
-        }
+  }
+}
+.contact,
+.testimonials {
+  .section-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    > h2 {
+      flex-basis: 100%;
+    }
+    > div {
+      flex-basis: 45%;
+      @media (max-width: 767px) {
+        flex-basis: 100%;
       }
     }
-
   }
 }
 .footer {
@@ -256,26 +295,5 @@ h2, h3 {
   padding: $spacing-unit;
   p {
     margin: 0;
-  }
-}
-#contact .section-content {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: flex-start;
-  h2 {
-    flex-basis: 100%;
-  }
-  img {
-    max-width: 50%;
-    width: 50%;
-    margin: 1em 0;
-  }
-}
-.contact-profile {
-  flex-basis: 45%;
-  @media (max-width: 767px) {
-    flex-basis: 100%;
   }
 }
