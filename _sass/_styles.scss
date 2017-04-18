@@ -280,6 +280,7 @@ h2, h3 {
     }
     > div {
       flex-basis: 45%;
+      margin-bottom: $spacing-unit;
       @media (max-width: 767px) {
         flex-basis: 100%;
       }
