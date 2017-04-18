@@ -7,13 +7,44 @@ permalink: /expertise/
 
 ## Expertise
 
-StrategyCo. focuses on CEO agenda from strategy, sales growth to productivity improvements. We offer services to startup, SME, corporations and non-profits.
+We help enterprises define its strategy to meet its goals and objectives. By using analytical and collaborative approach to formulating long term and short term strategies. These strategies are a roadmap to pursue a specific direction and set of performance goals, deliver customer value, and be successful.
 
-- New business building
-- Profitability improvement
-- New Product strategy
-- Marketing strategy
-- Company position assessment
-- Market entry
-- Program Management
-- Fund raising
+
+#### Start-ups
+
+- _Business Modeling_  
+Work with early stage companies in defining and identifying the core aspects of the business, business process, target customers, strategies, organizational structures, trading practices, and operational processes.
+
+- _Go-to-market_  
+We work with companies at all stages to formulate their go-to- market strategy. By understanding market dynamics and internal recourses we work towards delivering their unique value proposition to customers and achieve competitive advantage.
+
+- _Fund Raising_  
+For start-ups or growing companies as well as those facing major change, financing is one of the key business issues. We examine the determinants of capital fundraising and help companies seeking financing for any of their needs namely, product development, market penetration, working capital etc.
+
+- _Competitive Analysis_  
+Any successful organization has to look at the competition, and moreover, be aware how the nature of competition can guide its strategy. We work with the organizations in developing strategies base on competitive analysis.
+
+#### Growth Companies
+
+- _Market Entry and Expansion_  
+There are a number of factors that will influence the strategy of entering a market, including, but not limited to, tariff rates, the degree of adaptation of the product required, marketing and transportation costs. We help companies identify potential market based on market research and gathering market intelligence.
+
+- _Marketing Strategy_  
+We work with enterprises to formulate short-term, and long-term activities in the field of marketing. We scan the business environment both internal and external to understand strategic constraints. After grasping aspects of environment, including technological, economic, cultural, political and legal; goals are chosen to formulate the marketing strategy.
+
+- _New Product Strategy_  
+We work with companies in understanding the key factor for the success of a new product, service or experience. NPD strategy will help organize the product planning and research, capture customers' views and expectations, and accurately plan and resource your NPD project.
+
+- _Company Position Assessment_  
+We work with enterprises in planning their position in a specific market segment by identifying their targeted value proposition. Strategic position analysis is vital for companies that are serious about remaining relevant with consumers.
+
+#### Corporations
+
+- _Profitability Improvement_  
+Managing profitability in large, multi-product company is often hampered by conflicting agendas and lack of transparency into the profits generated at the transaction level. We break down the business into its component parts and prioritize profit improvement opportunities within a market context.
+
+- _New Business Offering_  
+We work with businesses in identifying inefficiencies in the market and accessing the resources and capability to bring together the necessary pieces together to correct that inefficiency. The process entails evaluating and identifying the risks that should be considered in deciding whether or not to pursue that business opportunity.
+
+- _Change Strategy Implementation_  
+Sensitive and elusive to implement. We work with companies in implementing the or change strategy by identifying barriers and generating short-term wins and creating a sense of urgency to achieve the change. We help initiate change until the vision is a reality.
