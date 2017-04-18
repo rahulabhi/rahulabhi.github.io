@@ -4,15 +4,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name="description" content="We offer business development and strategy consultancy. We use analytical and collaborative approach for strategy and implementation plan to achieve concrete results. We believe in achieving results and going one step further by following up on the plan with a clear timeline.">
+  <meta name="description" content="{{ site.description }}">
 
-  <meta property="og:site_name" content="StrategyCo." />
-  <meta property="og:title" content="StrategyCo.">
-  <meta property="og:description" content="We offer business development and strategy consultancy. We use analytical and collaborative approach for strategy and implementation plan to achieve concrete results. We believe in achieving results and going one step further by following up on the plan with a clear timeline.">
-  <meta property="og:image" content="http://strategycoglobal.com/images/hero5.jpeg">
-  <meta property="og:url" content="http://strategycoglobal.com/">
+  <meta property="og:site_name" content="{{ site.title }}" />
+  <meta property="og:title" content="{{ site.title }}">
+  <meta property="og:description" content="{{ site.description }}">
+  <meta property="og:image" content="{{ site.og-image | prepend: site.url }}">
+  <meta property="og:url" content="{{ site.url }}">
 
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+  <link href="favicon.ico" rel="icon" type="image/x-icon" />
 </head>

@@ -8,10 +8,11 @@
 # Site settings
 title: StrategyCo.
 email: rahul.abhisek@gmail.com
+og-image: images/hero5.jpeg
 description: > # this means to ignore newlines until "baseurl:"
-  © Rahul Abhisek 2016
+  We offer business development and strategy consultancy. We use analytical and collaborative approach for strategy and implementation plan to achieve concrete results. We believe in achieving results and going one step further by following up on the plan with a clear timeline.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://strategycoglobal.com/" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
