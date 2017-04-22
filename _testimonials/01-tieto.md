@@ -10,4 +10,4 @@ Rahul and his team excelled in producing innovative thinking both in concept ide
 
 ###### Pasi Laine
 
-###### Customer Experience Consultant, Tieto
+Customer Experience Consultant, Tieto

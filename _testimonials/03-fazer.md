@@ -10,4 +10,4 @@ Rahul participated in the winning team at a Hackathon organised by Fazer. Their 
 
 ###### Simon Panelius
 
-###### Vice President, Operational Development, Fazer
+Vice President, Operational Development, Fazer

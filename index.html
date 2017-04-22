@@ -14,13 +14,15 @@ layout: default
 <div id="testimonials" class="section testimonials">
   <div class="section-content">
     <h2>Testimonials</h2>
-    {% for page in site.pages %}
-      {% if page.testimonial-id %}
-      <div class="testimonial {{ page.testimonial-id }}">
+    <div class="testimonials-wrapper">
+      {% for page in site.pages %}
+        {% if page.testimonial-id %}
+        <div class="testimonial {{ page.testimonial-id }}">
           {{ page.content }}
-      </div>
-      {% endif %}
-    {% endfor %}
+        </div>
+        {% endif %}
+      {% endfor %}
+    </div>
   </div>
 </div>
 <div id="contact" class="section contact">

@@ -10,4 +10,4 @@ Rahul and his team were successful in creating new innovative business concepts 
 
 ###### Aleksi Nuuja
 
-###### Senior Project Manager, Tieto
+Senior Project Manager, Tieto
