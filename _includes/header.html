@@ -1,11 +1,13 @@
 <header class="header">
     <nav class="nav">
       <a class="logo" href="{{ site.baseurl }}/">{{ site.title }}</a>
-      {% for page in site.pages %}
-        {% if page.section-id %}
-        <a class="nav-{{ page.section-id }}" href="#{{ page.section-id }}">{{ page.title }}</a>
-        {% endif %}
-      {% endfor %}
-      <a class="nav-contact" href="#contact">Contact</a>
+      <div class="nav-links">
+        {% for page in site.pages %}
+          {% if page.section-id %}
+          <a class="nav-{{ page.section-id }}" href="#{{ page.section-id }}">{{ page.title }}</a>
+          {% endif %}
+        {% endfor %}
+        <a class="nav-contact" href="#contact">Contact</a>
+      </div>
     </nav>
 </header>

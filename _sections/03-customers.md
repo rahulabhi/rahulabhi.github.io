@@ -9,5 +9,5 @@ permalink: /customers/
 
 ![Fazer](/images/brand-logos/fazer.jpg)
 ![Tieto](/images/brand-logos/tieto.png)
-![Soundshade](/images/brand-logos/soundshade.png)
+![HIIT](/images/brand-logos/hiit.png)
 ![Nordicomm Technologies Oy](/images/brand-logos/nordicomm.png)

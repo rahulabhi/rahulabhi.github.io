@@ -7,17 +7,17 @@
 // @import url(https://fonts.googleapis.com/css?family=Cantata+One);
 // @import url(https://fonts.googleapis.com/css?family=Prata);
 @import url(https://fonts.googleapis.com/css?family=Playfair+Display:700);
-@import url(https://fonts.googleapis.com/css?family=Karla:400,400italic,700);
+// @import url(https://fonts.googleapis.com/css?family=Karla:400,400italic,700);
 // @import url(https://fonts.googleapis.com/css?family=Montserrat:700);
 
 // Our variables
 $base-font-family: 'Merriweather','Karla','Georgia',serif;
-$base-font-size:   16px;
+$base-font-size:   14px;
 $base-font-weight: 400;
 $title-font-family: 'Playfair Display','Karla','Georgia',serif;
-$nav-font-size:  $base-font-size * 0.875;
-$small-font-size:  $base-font-size * 0.875;
-$smaller-font-size:  $base-font-size * 0.6;
+$nav-font-size:  $base-font-size * 0.95;
+$small-font-size:  $base-font-size * 0.9;
+$smaller-font-size:  $base-font-size * 0.75;
 $base-line-height: 1.6;
 
 $spacing-unit:     20px;
@@ -32,7 +32,24 @@ $brand-color:      INDIANRED; //#2a7ae2;
 $secondary-color:  CORNSILK;
 $tertiary-color:   LIGHTSLATEGRAY;
 // Width of the content area
-$content-width:    55em;
+$content-width:    70em;
+$flex-column-width: 30%;
+
+@keyframes reveal {
+  0% {
+    display: none;
+    opacity: 0;
+  }
+  1% {
+    display: block;
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
