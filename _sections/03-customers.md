@@ -7,7 +7,7 @@ permalink: /customers/
 
 ## Customers
 
-![Fazer](/images/brand-logos/fazer.jpg)
+![Fazer](/images/brand-logos/fazer.png)
 ![Tieto](/images/brand-logos/tieto.png)
 ![HIIT](/images/brand-logos/hiit.png)
 ![Nordicomm Technologies Oy](/images/brand-logos/nordicomm.png)
