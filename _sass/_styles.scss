@@ -265,7 +265,6 @@ h2, h3 {
   }
   .testimonial {
     position: relative;
-    margin-bottom: $spacing-unit;
     padding-left: $spacing-unit*4;
     max-width: 50em;
     img {
@@ -284,6 +283,16 @@ h2, h3 {
       position: absolute;
       top: 0;
       left: 0;
+    }
+  }
+  .pager {
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+    margin: $spacing-unit 0 0 0;
+    color: $grey-color;
+    span[class *= 'active'] {
+      color: $brand-color;
     }
   }
 }

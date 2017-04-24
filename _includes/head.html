@@ -37,7 +37,9 @@
       $(this).toggleClass('active');
     });
     $('.testimonials-wrapper').cycle({
-      pauseOnHover: true,
+      fx: 'fadeOut',
+      pauseOnHover: false,
+      pager: '.pager',
       slides: '.testimonial',
       speed: 300,
       timeout: 2500
