@@ -8,6 +8,4 @@ permalink: /team/mikael/
 
 ### Mikael Lagerroos
 
-I am a recently graduated M.Sc. from Hanken School of Economics, where I pursued marketing as my major. The courses I chose were focused on strategic decision-making and customer experience management. Accordingly, my core interests and expertise lie strongly in these areas.
-
-I am very eager to put my knowledge of strategic marketing into practice. I am skilled in several languages and am accustomed to working in international environments.
+I am a strategy consultant, specialising in marketing strategy development and go-to-market planning for SMEs and growth companies companies. I strive to understand customer's experience and the impact it has on businesses. I enjoy participating in Case Competitions and keep an eye out for new innovations in the industry.
