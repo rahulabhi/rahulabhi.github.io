@@ -8,4 +8,4 @@ permalink: /team/mikael/
 
 ### Mikael Lagerroos
 
-I am a strategy consultant, specialising in marketing strategy development and go-to-market planning for SMEs and growth companies companies. I strive to understand the impact customer experience has on businesses. I enjoy participating in Case Competitions and keep an eye out for new innovations in the industry.
+I am a strategy consultant, specialising in marketing strategy development and go-to-market planning for SMEs and growth companies. I strive to understand the impact customer experience has on businesses. I enjoy participating in Case Competitions and keep an eye out for new innovations in the industry.
