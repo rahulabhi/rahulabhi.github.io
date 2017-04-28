@@ -7,7 +7,7 @@ permalink: /expertise/
 
 ## Expertise
 
-We help enterprises define its strategy to meet its goals and objectives. By using an analytical and collaborative approach to formulating long term and short term strategies. These strategies are a roadmap to pursue a specific direction and set of performance goals, deliver customer value, and be successful.
+We help enterprises formulate its strategy to meet its goals and objectives. By using an analytical and collaborative approach to formulating long term and short term strategies. These strategies are a roadmap to pursue a specific direction and set of performance goals to deliver customer value, and be successful.
 
 
 #### Start-ups
