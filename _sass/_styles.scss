@@ -52,10 +52,12 @@ h2, h3 {
   align-items: baseline;
   max-width: $content-width;
   margin: 0 auto;
-  padding: 0 $spacing-unit/2;
   text-align: center;
   -webkit-font-smoothing: antialiased;
-  @media (min-width: 500px) {
+  @media (min-width: 420px) {
+    padding: 0 $spacing-unit/2;
+  }
+  @media (min-width: 540px) {
     justify-content: space-between;
   }
   @media (min-width: 767px) {
@@ -69,7 +71,7 @@ h2, h3 {
     letter-spacing: 0.01em;
     text-align: center;
     margin: 0 !important;
-    @media (min-width: 500px) {
+    @media (min-width: 540px) {
       flex: 1 0 auto;
       font-size: 1.4em;
       text-align: left;
@@ -87,18 +89,24 @@ h2, h3 {
     flex: 0 0 auto;
     padding: $spacing-unit/4 0;
     color: white;
-    font-size: $nav-font-size;
+    font-size: $nav-font-size*0.85;
     font-weight: bold;
     letter-spacing: 0.05em;
     text-decoration: none !important;
     vertical-align: middle;
+    @media (min-width: 420px) {
+      font-size: $nav-font-size;
+    }
     @media (min-width: 767px) {
       padding: $spacing-unit/2 0;
       font-size: $nav-font-size * 1.1;
       letter-spacing: 0;
     }
     &:not(:last-child) {
-      margin-right: $spacing-unit;
+      margin-right: $spacing-unit/2;
+      @media (min-width: 420px) {
+        margin-right: $spacing-unit;
+      }
     }
     &:hover {
       border: 0;
@@ -162,7 +170,7 @@ h2, h3 {
     }
   }
 }
-.expertise {
+.services {
   ul {
     width: 100%;
     margin: 0;
@@ -235,17 +243,14 @@ h2, h3 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
   }
   img {
-    max-height: 100px;
-    object-fit: contain;
-    object-position: 50% 50%;
+    height: 100px;
+    width: auto;
     margin-bottom: $spacing-unit;
-    flex: 0 1 50%;
     @media (min-width: 767px) {
-      flex: 0 1 25%;
     }
   }
 }
@@ -296,7 +301,33 @@ h2, h3 {
     }
   }
 }
-.contact {
+.advisors {
+  img {
+    max-width: 50%;
+    width: 50%;
+  }
+  h3 {
+    margin-bottom: 1.3rem;
+  }
+  .section-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    > h2 {
+      flex-basis: 100%;
+    }
+    > div {
+      flex-basis: 45%;
+      margin-bottom: $spacing-unit;
+      @media (max-width: 767px) {
+        flex-basis: 100%;
+      }
+    }
+  }
+}
+.team {
   background-color: $grey-color-dark !important;
   color: white;
   img {
@@ -317,6 +348,13 @@ h2, h3 {
       margin-bottom: $spacing-unit;
       @media (max-width: 767px) {
         flex-basis: 100%;
+      }
+    }
+    a {
+      color: lighten($brand-color, 10%);
+      &:hover {
+        color: white;
+        border-bottom: 1px solid white;
       }
     }
   }

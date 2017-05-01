@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Expertise
-section-id: expertise
-permalink: /expertise/
+title: Services
+section-id: services
+permalink: /services/
 ---
 
-## Expertise
+## Services
 
 We help enterprises define its strategy to meet its goals and objectives. By using analytical and collaborative approach to formulating long term and short term strategies. These strategies are a roadmap to pursue a specific direction and set of performance goals, deliver customer value, and be successful.
 

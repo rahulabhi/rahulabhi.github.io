@@ -26,12 +26,24 @@ layout: default
     </div>
   </div>
 </div>
-<div id="contact" class="section contact">
+<div id="advisors" class="section advisors">
+  <div class="section-content">
+    <h2>Advisors</h2>
+    {% for page in site.pages %}
+      {% if page.advisor-id %}
+      <div class="advisor-profile {{ page.advisor-id }}">
+          {{ page.content }}
+      </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+<div id="team" class="section team">
   <div class="section-content">
     <h2>Team</h2>
     {% for page in site.pages %}
       {% if page.team-id %}
-      <div class="contact-profile {{ page.team-id }}">
+      <div class="team-profile {{ page.team-id }}">
           {{ page.content }}
       </div>
       {% endif %}
