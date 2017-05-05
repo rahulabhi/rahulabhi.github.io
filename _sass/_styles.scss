@@ -40,9 +40,40 @@ h2, h3 {
   top: 0;
   right: 0;
   left: 0;
-  background-color: $brand-color;
-  box-shadow: 0 0 5px rgba(black, 0.3);
+  background-color: transparent;
+  box-shadow: none;
   z-index: 9999;
+  transition: all 1s ease-out;
+  .logo {
+    opacity: 0;
+    font-size: 1.2em;
+    padding: 0;
+    transition: all 0.3 ease-out;
+  }
+  &.active,
+  &.headroom--not-top {
+    background-color: $brand-color;
+    box-shadow: 0 0 5px rgba(black, 0.3);
+    .logo {
+      opacity: 1;
+    }
+  }
+}
+.logo {
+  font-family: $base-font-family;
+  color: white !important;
+  flex: 1 0 100%;
+  text-align: left;
+  font-weight: bold;
+  font-size: 1.2em;
+  letter-spacing: 0.01em;
+  text-align: center;
+  margin: 0 !important;
+  @media (min-width: 540px) {
+    flex: 1 0 auto;
+    font-size: 1.4em;
+    text-align: left;
+  }
 }
 .nav {
   position: relative;
@@ -50,7 +81,7 @@ h2, h3 {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: baseline;
+  align-items: center;
   max-width: $content-width;
   margin: 0 auto;
   text-align: center;
@@ -65,20 +96,6 @@ h2, h3 {
   @media (min-width: 767px) {
     padding: 0 $spacing-unit*2;
   }
-  .logo {
-    flex: 1 0 100%;
-    text-align: left;
-    font-weight: bold;
-    font-size: 1.2em;
-    letter-spacing: 0.01em;
-    text-align: center;
-    margin: 0 !important;
-    @media (min-width: 540px) {
-      flex: 1 0 auto;
-      font-size: 1.4em;
-      text-align: left;
-    }
-  }
   .nav-links {
     flex: 0 1 auto;
     display: flex;
@@ -92,11 +109,11 @@ h2, h3 {
     padding-top: $spacing-unit/4;
     padding-bottom: $spacing-unit/4;
     color: white;
-    font-size: $nav-font-size*0.85;
+    font-size: $nav-font-size*0.8;
     font-weight: bold;
     letter-spacing: 0.05em;
     text-decoration: none !important;
-    box-shadow: 0 13px 0 -5px $brand-color;
+    // box-shadow: 0 13px 0 -5px $brand-color;
     vertical-align: middle;
     @media (min-width: 420px) {
       font-size: $nav-font-size;
@@ -121,7 +138,7 @@ h2, h3 {
       display: none;
     }
     &.active {
-      box-shadow: 0 13px 0 -5px white;
+      // box-shadow: 0 13px 0 -5px white;
     }
   }
 }
@@ -146,10 +163,10 @@ h2, h3 {
   }
 }
 .intro {
-  background: white url(../images/hero5-2.jpg) no-repeat 50% 0 / cover;
+  background: white url(../images/hero.jpg) no-repeat 50% 0 / cover;
   background-attachment: fixed;
   position: relative;
-  min-height: 500px;
+  min-height: 550px;
   h1 {
     margin: 5em 0 1em 0;
     text-shadow: 1px 2px 4px rgba(black,0.75);
@@ -162,6 +179,15 @@ h2, h3 {
   }
   .section-content {
     overflow: visible;
+  }
+  .logo {
+    font-size: 3em;
+    text-align: left !important;
+    margin: 180px 0 25px 0 !important;
+    & + p {
+      font-size: 1.5em;
+      color: white;
+    }
   }
 }
 .what-we-do {

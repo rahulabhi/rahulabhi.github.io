@@ -18,10 +18,24 @@
   <link rel="shortcut icon" href="favicon.ico" />
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.9.3/headroom.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.cycle2/2.1.6/jquery.cycle2.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/autosize.js/3.0.20/autosize.min.js"></script>
   <script>
+
   $(function() {
+    var myElement = document.querySelector('header');
+    var headroom  = new Headroom(myElement);
+    headroom.init({
+      offset : 500
+    });
+
+    // $('.header').headroom({
+    //   classes : {
+    //     pinned : 'active'
+    //   }
+    // });
+
     $('a[href*="#"]:not([href="#"])').click(function() {
       if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
         // $('nav a').removeClass('active');

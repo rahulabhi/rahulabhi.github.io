@@ -2,6 +2,12 @@
 layout: default
 ---
 
+<div id="intro" class="section intro">
+  <div class="section-content">
+    <h2 class="logo">StrategyCo.</h2>
+    <p>Participative and collaborative approach to strategy</p>
+  </div>
+</div>
 {% for page in site.pages %}
   {% if page.section-id %}
   <div id="{{ page.section-id }}" class="section {{ page.section-id }}">
@@ -53,7 +59,7 @@ layout: default
 <div id="contact" class="section contact">
   <form class="section-content contact-form" action="https://formspree.io/rahul.abhisek@gmail.com" method="POST">
     <h2>Contact</h2>
-    <p><em><a href="tel:+358456967674">Get in touch with us right away! Call Rahul on +358 45 6967674</a></em></p>
+    <p><em><a href="tel:+358456967674">Reach Rahul on +358 45 6967674</a></em></p>
     <div>
       <input type="hidden" name="_subject" value="Hello from StrategyCo." />
       <input type="hidden" name="_format" value="plain" />
