@@ -8,4 +8,4 @@ permalink: /advisor/christian/
 
 ### Christian Liljeström
 
-<a href="https://www.linkedin.com/in/christian-liljestr%C3%B6m-7735745/">Partner at KPMG</a>
+_Partner at KPMG_

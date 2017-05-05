@@ -19,10 +19,13 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.cycle2/2.1.6/jquery.cycle2.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/autosize.js/3.0.20/autosize.min.js"></script>
   <script>
   $(function() {
     $('a[href*="#"]:not([href="#"])').click(function() {
       if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+        // $('nav a').removeClass('active');
+        // $(this).addClass('active');
         var target = $(this.hash);
         target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
         if (target.length) {
@@ -33,6 +36,7 @@
         }
       }
     });
+
     $('#services em:first-child').click(function() {
       $(this).toggleClass('active');
     });
@@ -44,8 +48,10 @@
       speed: 300,
       timeout: 4500
     });
+    autosize($('textarea'));
     $('#submit').click(function(e) {
       e.preventDefault();
+      $('.contact-form')[0].reset();
       $('.contact .section-content').toggleClass('hidden');
       var data = getFormData($('.contact-form'));
       console.log(data);

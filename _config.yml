@@ -11,9 +11,10 @@ email: rahul.abhisek@gmail.com
 og-image: images/hero5.jpeg
 description: > # this means to ignore newlines until "baseurl:"
   We offer business development and strategy consultancy. We use analytical and collaborative approach for strategy and implementation plan to achieve concrete results. We believe in achieving results and going one step further by following up on the plan with a clear timeline.
+footer: All content © StrategyCo. 2016
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://strategycoglobal.com/" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
-include: ['_sections','_testimonials','_team']
+include: ['_sections','_testimonials','_advisors','_team']

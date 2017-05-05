@@ -1,5 +1,6 @@
 body {
   background: $background-color;
+  -webkit-font-smoothing: antialiased;
   // @media (max-width: 767px) {
   //   font-size: $base-font-size;
   // }
@@ -54,6 +55,7 @@ h2, h3 {
   margin: 0 auto;
   text-align: center;
   -webkit-font-smoothing: antialiased;
+  overflow: hidden;
   @media (min-width: 420px) {
     padding: 0 $spacing-unit/2;
   }
@@ -87,18 +89,21 @@ h2, h3 {
   }
   a {
     flex: 0 0 auto;
-    padding: $spacing-unit/4 0;
+    padding-top: $spacing-unit/4;
+    padding-bottom: $spacing-unit/4;
     color: white;
     font-size: $nav-font-size*0.85;
     font-weight: bold;
     letter-spacing: 0.05em;
     text-decoration: none !important;
+    box-shadow: 0 13px 0 -5px $brand-color;
     vertical-align: middle;
     @media (min-width: 420px) {
       font-size: $nav-font-size;
     }
     @media (min-width: 767px) {
-      padding: $spacing-unit/2 0;
+      padding-top: $spacing-unit/2;
+      padding-bottom: $spacing-unit/2;
       font-size: $nav-font-size * 1.1;
       letter-spacing: 0;
     }
@@ -114,6 +119,9 @@ h2, h3 {
     }
     &.nav-intro {
       display: none;
+    }
+    &.active {
+      box-shadow: 0 13px 0 -5px white;
     }
   }
 }
@@ -140,16 +148,15 @@ h2, h3 {
 .intro {
   background: white url(../images/hero5.jpeg) no-repeat 50% 0 / cover;
   background-attachment: fixed;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
+  position: relative;
   min-height: 500px;
   h1 {
-    margin-bottom: 1em;
+    margin: 5em 0 1em 0;
     text-shadow: 1px 2px 4px rgba(black,0.75);
     color: white;
     font-size: 2.5rem;
     @media (min-width: 767px) {
+      margin: 7.5em 0 1em 0;
       font-size: 3.2rem;
     }
   }
@@ -301,35 +308,34 @@ h2, h3 {
     }
   }
 }
-.advisors {
-  img {
-    max-width: 50%;
-    width: 50%;
-  }
-  h3 {
-    margin-bottom: 1.3rem;
-  }
-  .section-content {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: flex-start;
-    > h2 {
-      flex-basis: 100%;
-    }
-    > div {
-      flex-basis: 47.5%;
-      margin-bottom: $spacing-unit;
-      @media (max-width: 767px) {
-        flex-basis: 100%;
-      }
-    }
-  }
-}
+// .advisors {
+//   img {
+//     max-width: 50%;
+//     width: 50%;
+//   }
+//   h3 {
+//     margin-bottom: 1.3rem;
+//   }
+//   .section-content {
+//     display: flex;
+//     flex-direction: row;
+//     flex-wrap: wrap;
+//     justify-content: space-between;
+//     align-items: flex-start;
+//     > h2 {
+//       flex-basis: 100%;
+//     }
+//     > div {
+//       flex-basis: 47.5%;
+//       margin-bottom: $spacing-unit;
+//       @media (max-width: 767px) {
+//         flex-basis: 100%;
+//       }
+//     }
+//   }
+// }
+.advisors,
 .team {
-  background-color: $grey-color-dark !important;
-  color: white;
   img {
     max-width: 50%;
     width: 50%;
@@ -359,6 +365,19 @@ h2, h3 {
     }
   }
 }
+.advisors {
+  h3 {
+    margin-bottom: 1.3rem;
+    & + p em {
+      color: $brand-color;
+      font-weight: bold;
+    }
+  }
+}
+.team {
+  background-color: $grey-color-dark !important;
+  color: white;
+}
 .contact {
   background-color: transparent !important;
   .section-content {
@@ -367,8 +386,13 @@ h2, h3 {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: stretch;
-    h2 {
+    h2,
+    h2 + p {
       flex: 0 0 100%;
+    }
+    h2 + p em {
+      color: $brand-color;
+      font-weight: bold;
     }
     > div {
       flex: 0 1 47.5%;
@@ -415,8 +439,8 @@ h2, h3 {
     }
   }
   textarea {
-    resize: none;
-    height: 11em;
+    resize: vertical;
+    min-height: 11em;
   }
   #submit {
     background-color: $brand-color;
@@ -431,13 +455,6 @@ h2, h3 {
   }
 }
 .footer {
-  background-color: $tertiary-color;
-  color: white;
-  font-size: $smaller-font-size;
-  letter-spacing: 0.1em;
-  text-align: center;
-  padding: $spacing-unit;
-  p {
-    margin: 0;
-  }
+  font-size: $small-font-size;
+  text-align: center !important;
 }

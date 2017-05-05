@@ -1,13 +1,13 @@
 ---
 layout: page
-title: What we do
+title: About Us
 section-id: what-we-do
 permalink: /what-we-do/
 ---
 
 ![Rahul Abhisek](/images/process.jpg)
 
-## What we do
+## About Us
 
 We offer business development and strategy consultancy. We use analytical and collaborative approaches for strategy creation and implementation plan to achieve concrete results.
 
