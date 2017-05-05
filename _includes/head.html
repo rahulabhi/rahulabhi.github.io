@@ -49,15 +49,15 @@
       $('.contact .section-content').toggleClass('hidden');
       var data = getFormData($('.contact-form'));
       console.log(data);
-      // $.ajax({
-      //     url: "https://formspree.io/you@email.com",
-      //     method: "POST",
-      //     data: data,
-      //     dataType: "json",
-      //     success: function(){
-      //       $('.contact .section-content').toggleClass('hidden');
-      //     }
-      // });
+      $.ajax({
+          url: "https://formspree.io/rahul.abhisek@gmail.com",
+          method: "POST",
+          data: data,
+          dataType: "json",
+          success: function(){
+            $('.contact .section-content').toggleClass('hidden');
+          }
+      });
     });
   });
   function getFormData($form){
@@ -80,6 +80,8 @@
         indexed_array[n['name']] = n['value'];
       }
     });
+
+    indexed_array._subject = indexed_array.name + ' (' + indexed_array._replyto + ') : StrategyCo. Contact Form'
 
     return indexed_array;
   }
