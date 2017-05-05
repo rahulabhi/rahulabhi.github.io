@@ -25,10 +25,11 @@
 
   $(function() {
     var myElement = document.querySelector('header');
-    var headroom  = new Headroom(myElement);
-    headroom.init({
-      offset : 500
+    var headroom  = new Headroom(myElement, {
+      offset : 500,
+      tolerance: 500
     });
+    headroom.init();
 
     // $('.header').headroom({
     //   classes : {
