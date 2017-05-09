@@ -8,4 +8,4 @@ permalink: /advisor/christian/
 
 ### Christian Liljeström
 
-_Partner at KPMG_
+_Advisory Partner at KPMG_
