@@ -405,6 +405,10 @@ h2, h3 {
 }
 .contact {
   background-color: transparent !important;
+  img {
+    max-width: 50%;
+    width: 50%;
+  }
   .section-content {
     display: flex;
     flex-direction: row;
