@@ -279,9 +279,9 @@ h2, h3 {
     align-items: center;
   }
   img {
-    height: 100px;
-    width: auto;
-    margin-bottom: $spacing-unit;
+    width: 180px;
+    height: auto;
+    margin: $spacing-unit*1.5;
     @media (min-width: 767px) {
     }
   }
