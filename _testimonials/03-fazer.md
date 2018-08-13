@@ -1,13 +1,11 @@
 ---
 layout: page
-testimonial-id: fazer
-permalink: /testimonial/fazer-03
+testimonial-id: neste
+permalink: /testimonial/neste-03
 ---
 
-![Fazer](/images/brand-logos/fazer.png)
+![Neste](/images/brand-logos/neste.png)
 
-Rahul participated in the winning team at a Hackathon organised by Fazer. Their contribution utilised the technical IoT devices provided in an innovative way to collect guest feedback. In addition they also calculated a solid business case for possible full-scale implementation of the same.
+Cooperation was fruitful throughout our 3-month-journey together. The final results were presented in high quality manner and provide excellent basis for next steps in Neste.
 
-###### Simon Panelius
-
-Vice President, Operational Development, Fazer
+###### Vice President, Neste
