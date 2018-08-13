@@ -6,8 +6,8 @@ permalink: /testimonial/tieto-01
 
 ![Tieto](/images/brand-logos/tieto.png)
 
-Rahul and his team excelled in producing innovative thinking both in concept ideation and cost-benefit analysis for Tieto’s hackathon project. They are creative in finding new angles to business cases which made them an invaluable asset in business development projects.
+I have been impressed by the hard work that the team put in for this and the quality of the end deliverable. The project helped us refine our thinking and in improving our understanding of the market needs.
 
-###### Pasi Laine
+###### 
 
-Customer Experience Consultant, Tieto
+Director, Tieto
