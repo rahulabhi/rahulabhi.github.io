@@ -8,5 +8,5 @@ permalink: /customers/
 ## Customers
 
 ![ABB](/images/brand-logos/abb.png)
-![Neste Oil](/images/brand-logos/neste.png)
+![Neste Oil](/images/brand-logos/Neste-oil1.png)
 ![HIIT](/images/brand-logos/hiit.png)
