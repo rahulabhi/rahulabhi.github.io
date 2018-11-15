@@ -1,0 +1,35 @@
+---
+layout: leap
+---
+
+<div id="intro" class="section intro">
+  <div class="section-content">
+    <h2 class="logo">LEAP</h2>
+    <p>Your path to a great career</p>
+  </div>
+</div>
+{% for page in site.pages %}
+  {% if page.leap-id %}
+  <div id="{{ page.leap-id }}" class="section {{ page.leap-id }}">
+    <div class="section-content">
+      {{ page.content | markdownify }}
+    </div>
+  </div>
+  {% endif %}
+{% endfor %}
+
+<div id="testimonials" class="section testimonials">
+  <div class="section-content">
+    <h2>Testimonials</h2>
+    <div class="testimonials-wrapper">
+      {% for page in site.pages %}
+        {% if page.testimonial-leap-id %}
+        <div class="testimonial {{ page.testimonial-leap-id }}">
+          {{ page.content }}
+        </div>
+        {% endif %}
+      {% endfor %}
+      <div class="pager"></div>
+    </div>
+  </div>
+</div>

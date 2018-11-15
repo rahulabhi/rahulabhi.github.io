@@ -27,7 +27,7 @@ $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
 $text-color:       #111;
-$background-color: lighten($grey-color, 40%);
+$background-color: lighten($grey-color, 45%);
 $brand-color:      INDIANRED; //#2a7ae2;
 $secondary-color:  CORNSILK;
 $tertiary-color:   LIGHTSLATEGRAY;
@@ -55,5 +55,6 @@ $flex-column-width: 30%;
 @import
         "base",
         "typography",
-        "styles"
+        "styles",
+        "leap"
 ;

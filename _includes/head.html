@@ -46,6 +46,15 @@
       }
     });
 
+    $('#expertise li h6').click(function() {
+      $(this).parent().toggleClass('active');
+    });
+    $('.how-it-works li').click(function() {
+      var title = $(this).find('h6').text().toLowerCase();
+      $('.how-it-works').attr('class','section how-it-works ' + title);
+    });
+
+
     $('#services em:first-child').click(function() {
       $(this).toggleClass('active');
     });
