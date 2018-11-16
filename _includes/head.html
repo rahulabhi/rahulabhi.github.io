@@ -51,7 +51,9 @@
     });
     $('.how-it-works li').click(function() {
       var title = $(this).find('h6').text().toLowerCase();
-      $('.how-it-works').attr('class','section how-it-works ' + title);
+      $('.how-it-works').attr('class','section how-it-works active ' + title);
+      $('.how-it-works li').removeClass('active');
+      $(this).addClass('active');
     });
 
 
