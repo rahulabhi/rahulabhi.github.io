@@ -44,6 +44,12 @@
         font-size: 1.5em;
         color: white;
       }
+      &:after {
+        content: none;
+      }
+    }
+    img {
+      width: 240px;
     }
   }
   .customers {
