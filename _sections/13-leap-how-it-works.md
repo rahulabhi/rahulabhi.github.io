@@ -4,14 +4,15 @@ title: How it works
 leap-id: how-it-works
 permalink: /leap-how-it-works/
 ---
+You will get exposure to the leaders of the best companies in the country, and a chance to work in a consulting industry.
 
 ## How it works
 
 1.  ###### Application
-    Apply to the program with you resume attached. Our experts will review your resume, and will back to you shortly to suggest further steps.
+    Apply to the program with you resume attached. Our team will review your resume, and will get back to you shortly for further steps.
 
 2.  ###### Selection
-    Projects last 2-3 months, and requires 20 h/week. You will work in a team of 3, being supervised and guided by senior consultants.
+    The selection process includes interview, home-assignments and presentations.
 
 3.  ###### Outcome
-    You will get exposure to the leaders of the best companies in the country, and a chance to work in a consulting industry.
+    Based on performance candidates are selected or candidates can also select the projects they would like to work on.
