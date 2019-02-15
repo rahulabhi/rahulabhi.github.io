@@ -4,7 +4,6 @@ title: How it works
 leap-id: how-it-works
 permalink: /leap-how-it-works/
 ---
-You will get exposure to the leaders of the best companies in the country, and a chance to work in a consulting industry.
 
 ## How it works
 
