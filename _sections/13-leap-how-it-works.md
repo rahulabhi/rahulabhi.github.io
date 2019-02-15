@@ -14,4 +14,4 @@ permalink: /leap-how-it-works/
     The selection process includes interview, home-assignments and presentations.
 
 3.  ###### Outcome
-    Based on performance candidates are selected or candidates can also select the projects they would like to work on.
+    Candidates are selected based on their performance in the assignments and are offered positions in on-going projects.
